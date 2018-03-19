@@ -5,6 +5,4 @@
 
 function makeGrid() {
 
-// Your code goes here!
-
 }
