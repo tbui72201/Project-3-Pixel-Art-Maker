@@ -1,2 +1,2 @@
-# Hello-World
-Welcome to Framework BootCamp Prep program.
+# Final Project - Pixel Art Maker
+Welcome to Pixel Art Maker Project!
