@@ -1,28 +1,33 @@
+
 <!DOCTYPE html>
 <html>
 <head>
     <title>Pixel Art Maker!</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
-    <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="tbstyles.css">
 </head>
 <body>
+<!-- Pixel Art Maker Project - Set default value is 10 min and 250 max for width and height -->
     <h1>Lab: Pixel Art Maker</h1>
-
-    <h2>Choose Grid Size</h2>
+<div id="open">
+    <h2>Choose the Grid Size</h2>
     <form id="sizePicker">
-        Grid Height:
-        <input type="number" id="inputHeight" name="height" min="1" value="1">
-        Grid Width:
-        <input type="number" id="inputWeight" name="width" min="1" value="1">
-        <input type="submit">
+        <p>Grid Height (10 min and 250 max):
+        <input type="number" id="inputHeight" name="height" min="10" max="250" value="10"></p>
+        <p>Grid Width (10 min and 250 max):
+        <input type="number" id="inputWeight" name="width" min="10" max="250" value="10"></p>
+        <input type="submit" id="submitButton">
+<!-- Use reset button to reset the input height & input width -->
+        <input type="Reset" id="reset">
     </form>
 
     <h2>Pick A Color</h2>
     <input type="color" id="colorPicker">
 
-    <h2>Design Canvas</h2>
+    <h2>Start Drawing</h2>
     <table id="pixelCanvas"></table>
 
-    <script src="designs.js"></script>
+    <script src="tbdesigns.js"></script>
+</div>
 </body>
 </html>
