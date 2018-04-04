@@ -1,11 +1,27 @@
-body {
+/* Pixel Art Maker - CSS code*/
+body
+{
+    background-color: aqua;
+    border-width: thin;
+    border-color: blue;
     text-align: center;
 }
 
-h1 {
+#open 
+{
+    overflow:true; margin:auto;
+    border-width: 100px;
+    background-color: lightcyan;
+}
+
+h1 
+{
     font-family: Monoton;
-    font-size: 70px;
+    font-size: 65px;
     margin: 0.2em;
+    padding: 5px;
+    border-color: crimson;
+    border: 1px solid brown;
 }
 
 h2 {
@@ -14,6 +30,20 @@ h2 {
 
 h2:first-of-type {
     margin-top: 0.5em;
+}
+p {
+    font-weight: bold;
+    color: brown;
+}
+
+#submitButton {
+  border: 1px solid blue;
+  border-radius: 1.5px;
+}
+
+#reset {
+  border: 1px solid darkblue;
+  border-radius: 1.5px;
 }
 
 table,
@@ -27,14 +57,17 @@ table {
     margin: 0 auto;
 }
 
-tr {
+tr 
+{
     height: 20px;
 }
 
-td {
+td 
+{
     width: 20px;
 }
 
 input[type=number] {
     width: 6em;
+    font-weight: bold;
 }
