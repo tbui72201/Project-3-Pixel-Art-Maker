@@ -1,4 +1,5 @@
-/* Defining grids - default value is 10 min and 250 max for width and height */
+/* Defining grids for Version 2.0 - change variables to cons and use let */
+/* Defining grids for Version 1.0 - default value is 10 min and 250 max for width and height */
 
 var gridColor = document.getElementById('colorPicker');
 var gridHeight = document.getElementById('inputHeight');
